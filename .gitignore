@@ -1,3 +1,7 @@
 cyclistic_data
 .ipynb_checkpoints
 spark-warehouse
+data
+raw_data
+bella_beat_csv
+bella_beat_raw

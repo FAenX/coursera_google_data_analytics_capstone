@@ -11,3 +11,4 @@ USER jovyan
 
 # Install additional packages
 RUN pip install Cartopy
+RUN pip install mlxtend

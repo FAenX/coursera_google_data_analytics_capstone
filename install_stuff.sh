@@ -1,4 +1,5 @@
 docker run -p 10000:8888 \
 -v $(pwd):/home/jovyan/work \
-jupyter/pyspark-notebook /bin/bash "\
-pip install Cartopy;"
+--entrypoint "/bin/bash" \
+jupyter/pyspark-notebook -c "\
+python -m pip install mlxtend ;"
